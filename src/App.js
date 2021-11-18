@@ -12,7 +12,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div className="s">
+        <div className="">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/portfolio" element={<Portfolio />} />

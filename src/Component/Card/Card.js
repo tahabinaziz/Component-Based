@@ -1,7 +1,9 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 class Card extends Component {
   render() {
+    const { img, title, smallText, siteLink } = this.props;
     return (
       <>
         <div class="col-md-4 mb-4">
@@ -10,9 +12,9 @@ class Card extends Component {
               <img
                 className="card-img-top"
                 //   src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
-                src={this.props.img}
+                src={img}
                 alt="Card image cap"
-                style={{height:'200px', width:'100%'}}
+                style={{ height: "200px", width: "100%" }}
               />
               <a href="#!">
                 <div className="mask rgba-white-slight"></div>
@@ -22,17 +24,13 @@ class Card extends Component {
             {/* <!-- Card content --> */}
             <div className="card-body">
               {/* <!-- Title --> */}
-              <h4 className="card-title">{this.props.title}</h4>
+              <h4 className="card-title">{title}</h4>
               {/* <!-- Text --> */}
-              <p className="card-text">{this.props.smallText}</p>
+              <p className="card-text">{smallText}</p>
               {/* <!-- Button --> */}
-              <a
-                href={this.props.siteLink}
-                target="_blank"
-                className="btn btn-primary"
-              >
+              <Link to={siteLink} target="_blank" className="btn btn-primary">
                 View
-              </a>
+              </Link>
             </div>
           </div>
         </div>
