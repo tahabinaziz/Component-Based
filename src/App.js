@@ -7,6 +7,7 @@ import Portfolio from "./Pages/Portfolio/Portfolio";
 import Contact from "./Pages/Contact/Contact";
 
 import About from "./Pages/About/About";
+import TodoApp from "./Pages/Projects/TodoApp";
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/todo-app" element={<TodoApp />} />
           </Routes>
         </div>
       </Router>

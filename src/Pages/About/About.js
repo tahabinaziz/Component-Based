@@ -4,6 +4,7 @@ import React, { Component } from "react";
 import ImageBox from "../../Component/ImageBox/ImageBox";
 import Navbar from "../../Component/Navbar/Navbar";
 import mohit from "../../Assest/images/mohit.jpg";
+import dipesh from "../../Assest/images/dipesh.jpg";
 
 class About extends Component {
   render() {
@@ -21,7 +22,7 @@ class About extends Component {
               />
             </div>
             <div className="col-md-6">
-              <ImageBox img={""} name={"Dipesh"} email={""} />
+              <ImageBox img={dipesh} name={"Dipesh Chaudhary"} email={"dipesh.chaudhary@informatik.hs-fulda.de"} />
             </div>
             <div className="col-md-6">
               <ImageBox
