@@ -11,13 +11,15 @@ function TodoForm({ addTodo }) {
   };
 
   return (
-    <div className="form-group">
+    <div className="container">
+    
       <form onSubmit={handleSubmit}>
+      <div className="form-group">
         <div className="row">
           <label  className="col-12 form-label" srOnly>
             Enter a Todo
     </label>
-          <div className="col-10">
+          <div className="col-8">
             <input className="form-control"
               type="text"
               placeholder="Enter a Todo"
@@ -30,8 +32,10 @@ function TodoForm({ addTodo }) {
             <button type="submit" className="btn btn-primary">Submit</button>
           </div>
         </div>
+        </div>
       </form>
     </div>
+    
   );
 }
 

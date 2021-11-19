@@ -13,11 +13,11 @@ function TodoItem({ todo, removeTodo }) {
 const {completed, text, id} = todoItem
   return (
    
-      <div className="list-group-item">
+      <div className="list-group-item container">
         <div className="row">
-        <div className="col-8"><p className={completed ? "isDone" : ""}>{text}</p></div>
-        <div className="col-2"><button className="btn btn-primary" onClick={toggleDone}>{completed ? "undone" : "Done"}</button></div>
-        <div className="col-2"><button className="btn btn-danger"
+        <div className="col-md-12"><p className={completed ? "isDone" : ""}>{text}</p></div>
+        <div className=""><button className="btn btn-primary" onClick={toggleDone}>{completed ? "undone" : "Done"}</button></div>
+        <div className=""><button className="btn btn-danger"
       
         onClick={() => 
           removeTodo(id)}>Delete</button></div>
