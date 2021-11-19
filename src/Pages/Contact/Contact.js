@@ -4,6 +4,7 @@ import Navbar from "../../Component/Navbar/Navbar";
 import Input from "../../Component/InputField/Input";
 import Textarea from "../../Component/InputField/Textarea";
 
+
 class Contact extends Component {
   constructor(props) {
     super(props);
@@ -81,10 +82,11 @@ class Contact extends Component {
               />
             </div>
             <button type="submit" class="btn btn-primary ml">
-              Primary
+              Submit
             </button>
           </form>
         </div>
+        
       </div>
     );
   }
