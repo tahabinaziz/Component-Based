@@ -31,7 +31,7 @@ class About extends Component {
               />
             </div>
             <div className="col-md-6">
-              <ImageBox img={""} name={"Hitesh"} email={""} />
+              <ImageBox img={"https://avatars.githubusercontent.com/u/56676250?v=4"} name={"Hitesh Shridhar"} email={"hitesh.shridhar@informatik.hs-fulda.de"} />
             </div>
           </div>
         </div>
