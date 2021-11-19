@@ -28,7 +28,9 @@ class Card extends Component {
               {/* <!-- Text --> */}
               <p className="card-text">{smallText}</p>
               {/* <!-- Button --> */}
-              <Link to={siteLink} target="_blank" className="btn btn-primary">
+              <Link to={siteLink} 
+              // target="_blank"
+               className="btn btn-primary">
                 View
               </Link>
             </div>
