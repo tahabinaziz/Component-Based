@@ -11,7 +11,7 @@ class About extends Component {
     return (
       <div>
         <Navbar />
-        <div className="container">
+        <div className="container" style={{textAlign:'center'}}>
           <h2 className="mt-4 mb-4 ">About Demo Team</h2>
           <div className="row">
             <div className="col-md-6">
@@ -22,7 +22,9 @@ class About extends Component {
               />
             </div>
             <div className="col-md-6">
-              <ImageBox img={dipesh} name={"Dipesh Chaudhary"} email={"dipesh.chaudhary@informatik.hs-fulda.de"} />
+              <ImageBox img={dipesh}
+               name={"Dipesh Chaudhary"}
+              email={"dipesh.chaudhary@informatik.hs-fulda.de"} />
             </div>
             <div className="col-md-6">
               <ImageBox
@@ -32,7 +34,9 @@ class About extends Component {
               />
             </div>
             <div className="col-md-6">
-              <ImageBox img={"https://avatars.githubusercontent.com/u/56676250?v=4"} name={"Hitesh Shridhar"} email={"hitesh.shridhar@informatik.hs-fulda.de"} />
+              <ImageBox img={"https://avatars.githubusercontent.com/u/56676250?v=4"}
+               name={"Hitesh Shridhar"}
+                email={"hitesh.shridhar@informatik.hs-fulda.de"} />
             </div>
           </div>
         </div>

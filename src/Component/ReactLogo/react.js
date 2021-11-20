@@ -5,10 +5,9 @@ class Logo extends Component {
   render() {
     return (
       <div className="App">
-        
         <header className="App-header">
-          
-          <div className="row">
+        <u><h3>React.js</h3></u>
+        <br/>
             <div className="col-md-3">
           <p className="" >What is functional based component?</p>  
             </div>
@@ -18,9 +17,6 @@ class Logo extends Component {
             <div className="col-md-3">
             <p className="" >What is class based component?</p>
             </div>
-          </div>
-          
-          <h3>React.js</h3>
         </header>
       </div>
     );
