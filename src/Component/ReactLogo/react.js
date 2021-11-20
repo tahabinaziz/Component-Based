@@ -8,14 +8,14 @@ class Logo extends Component {
         <header className="App-header">
         <u><h3>React.js</h3></u>
         <br/>
-            <div className="col-md-3">
-          <p className="" >What is functional based component?</p>  
+            <div className="">
+          <p>What is functional based component?</p>  
             </div>
-            <div className="col-md-6">
+            <div className="">
             <img src={logo} className="App-logo" alt="logo" />
             </div>
-            <div className="col-md-3">
-            <p className="" >What is class based component?</p>
+            <div className="">
+            <p>What is class based component?</p>
             </div>
         </header>
       </div>
