@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-class ImageBox extends Component {
+class Input extends Component {
   render() {
     const { name, formControl, email, placeholder,title,value,onChange } = this.props;
     return (
@@ -21,4 +21,4 @@ class ImageBox extends Component {
     );
   }
 }
-export default ImageBox;
+export default Input;
